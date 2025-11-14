@@ -52,10 +52,14 @@ img{
 
 .box1{
     background-image: linear-gradient(to right, black, blue);
+    width: 400px;
+    grid-column: 1/3;
 }
 
 .box2{
     background-image: linear-gradient(to right, black, gray);
+    height: 400px;
+    
 }
 
 .box3{
