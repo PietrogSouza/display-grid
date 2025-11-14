@@ -1,7 +1,0 @@
-01- Tamanhoda tela
-
-    Quando quiser deixar 100% da tela ou use 100vh ou de um tamanho para o body caso contrário ele não reconhecera o 100% pois é 100% de nada porque não definiu um tamanho especifico
-
-02 - Gap distância entre os itens
-
-    Se você usar o gap vai aplicar entre todos o itens, caso queiro separar diferente você pode usar o gap entre linhas e colunas row-gap, column-gap

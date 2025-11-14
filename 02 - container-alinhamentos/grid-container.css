@@ -1,0 +1,75 @@
+/* Reset Padrão */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(176, 16, 16, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 4px double #fff;
+}
+
+.grid-container{
+    display: grid;
+
+    /* Função repeat com repetições automáticas */
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+
+    /* Alinhamento dos itens da grid */
+    justify-items: center;
+    align-items: center;
+
+    height: 100vh;
+
+    /* Alinhamento da Grid */
+    justify-content: center;
+    align-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+
+.box1{
+    background-image: linear-gradient(to right, black, blue);
+}
+
+.box2{
+    background-image: linear-gradient(to right, black, gray);
+}
+
+.box3{
+    background-image: linear-gradient(to right, black, red);
+}
+
+.box4{
+    background-image: linear-gradient(to right, black, white);
+}
+
+.box5{
+    background-image: linear-gradient(to right, purple, white);
+}
+
+.box6{
+    background-image:  linear-gradient(to right, black, rgb(79, 230, 79));
+}
+

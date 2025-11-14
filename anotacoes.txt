@@ -1,0 +1,18 @@
+01- Tamanhoda tela
+
+    Quando quiser deixar 100% da tela ou use 100vh ou de um tamanho para o body caso contrário ele não reconhecera o 100% pois é 100% de nada porque não definiu um tamanho especifico
+
+02 - Gap distância entre os itens
+
+    Se você usar o gap vai aplicar entre todos o itens, caso queiro separar diferente você pode usar o gap entre linhas e colunas row-gap, column-gap
+
+03 - Quando for criar várias classes de quiser numerar elas 1 por 1 coloque $ 
+
+
+Link das imagens
+    Audi: https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg
+    bmw: https://images.pexels.com/photos/892522/pexels-photo-892522.jpeg
+    ferrari: https://images.pexels.com/photos/30599907/pexels-photo-30599907.jpeg
+    chevrolet: https://images.pexels.com/photos/9703449/pexels-photo-9703449.jpeg
+    honda: https://images.pexels.com/photos/26936246/pexels-photo-26936246.jpeg
+    porshe: https://images.pexels.com/photos/892522/pexels-photo-892522.jpeg
