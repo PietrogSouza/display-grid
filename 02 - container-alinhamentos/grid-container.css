@@ -46,6 +46,7 @@ img{
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
+    color: #fff;
     
 }
 
@@ -62,11 +63,11 @@ img{
 }
 
 .box4{
-    background-image: linear-gradient(to right, black, white);
+    background-image: linear-gradient(to right, black, yellow);
 }
 
 .box5{
-    background-image: linear-gradient(to right, purple, white);
+    background-image: linear-gradient(to right, black, rgb(170, 22, 170));
 }
 
 .box6{
