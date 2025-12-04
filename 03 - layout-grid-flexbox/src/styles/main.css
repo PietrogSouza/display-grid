@@ -1,0 +1,61 @@
+.header{
+    background-color: black;
+    display: flex;
+
+    /* Quando não couber no container quebre a linha */
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+/* Fomatação CSS da section FLEBOX 1 */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* Formatação CSS da section GRID 1 */
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    
+}
+
+/* Dividindo em duas colunas a partir do quarto filho do grid1 */
+.grid1 > div:nth-child(n + 4) {
+    display: grid;
+    /* Divide em duas colunas */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.grid1 > div.anuncio{
+    grid-column: 1;
+    grid-row: 2/5;
+    border-top: 10px solid tomato;
+    display: block;
+}
